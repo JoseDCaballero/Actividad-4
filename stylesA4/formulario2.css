@@ -1,0 +1,45 @@
+section{
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-right: 2px solid #000;
+    border-left: 2px solid #000;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;    
+    position: absolute;
+    transform: translate(53%, 11%);
+    width: 650px;
+}
+#contenedor form {
+    margin-top: 16px;
+    margin-left: 2px;
+}
+#numeros{
+    display: flex;
+    flex-direction: row;
+}
+input,select{
+    border-radius: 5px;
+    margin-left: 2px;
+    outline: none;
+    border-color: #000;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+select{
+    color: #787676;
+}
+p{
+    color: #000;
+}
+option{
+    color: #000;
+    background-color: #fff;
+}
+input{
+    color: #787676;
+}
